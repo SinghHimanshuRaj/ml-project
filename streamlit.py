@@ -16,9 +16,9 @@ import pickle
 # In[14]:
 
 
-df = pd.read_csv("/Users/himanshukumarsingh/Downloads/MSc clg stuffs/Sem 2/project/ml project/Top_10000_Movies.csv", engine = 'python')
+df = pd.read_csv("/Users/himanshukumarsingh/Downloads/MSc clg stuffs/project/movie recommendation system/project files/Top_10000_Movies.csv", engine = 'python')
 
-model_path = "/Users/himanshukumarsingh/Downloads/MSc clg stuffs/Sem 2/project/archive"
+model_path = "/Users/himanshukumarsingh/Downloads/MSc clg stuffs/project/movie recommendation system/archive"
 model = hub.load(model_path)
 
 
